@@ -1,8 +1,8 @@
 
-__pycache__/
-BankAccountClass.py
-BankAccountProgram.py
+
+bankAccountClass.py
+bankAccountProgram.py
 calc_gross_pay.py
-Coin Toss.py
+coinToss.py
 coinAsArgument.py
-CoinClass.py
+coinClass.py

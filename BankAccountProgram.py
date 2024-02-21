@@ -10,26 +10,26 @@ def main():
    # Create a BankAccount object.
    savings = bc.BankAccount(start_bal)
 
-   # Deposit the user's paycheck.
+   # Deposit the user's paycheck.       
    pay = float(input('How much were you paid this week? '))
    print('I will deposit that into your account.')
-   savings.deposit(pay)
+   savings.deposit(pay)       #-----deposit fnc
 
-   # Display the balance.
+   # Display the balance.               
    print('Your account balance is $', format(savings.get_balance(), ',.2f'),
         sep='')
 
    # Get the amount to withdraw.
    cash = float(input('How much would you like to withdraw? '))
    print('I will withdraw that from your account.')
-   savings.withdraw(cash)
+   savings.withdraw(cash)     #-----withdraw fnc
 
    # Display the balance.
    print('Your account balance is $', 
         format(savings.get_balance(), ',.2f'),
         sep='')
 
-   print(savings)
+#    print(savings)
 
 # Call the main function.
 main()

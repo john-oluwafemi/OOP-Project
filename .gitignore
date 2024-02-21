@@ -1,1 +1,8 @@
-.venv/
+__pycache__/
+BankAccountClass.py
+BankAccountProgram.py
+calc_gross_pay.py
+Coin Toss.py
+coinAsArgument.py
+CoinClass.py
+

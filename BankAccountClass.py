@@ -14,13 +14,18 @@ class BankAccount:
       # account.
 
     def deposit(self, amount):
-        self.balance += amount
+        self.balance += abs(amount)
 
       # The withdraw method withdraws an amount
       # from the account.
 
     def withdraw(self, amount):
-
+        
+        if amount > self.balance:
+            print("Insufficient Funds")
+        else:
+          self.balance -= abs(amount)
+        
 
       # The get_balance method returns the
       # account balance.
